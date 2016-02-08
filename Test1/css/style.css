@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-family:'chunkfiveroman', Verdana, Geneva, sans-serif;
+	color:#41B20A;
+	font-size: 18px; 
+	font-size:3.5vw;
+	margin-bottom:20px;
+}
+
+#images {
+  -webkit-column-count: 5;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    5;
+  -moz-column-gap:     10px;
+  column-count:         5;
+  column-gap:           10px;  
+}
+
+#images img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.imgselected {
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	border:solid 5px #f29c2c;
+}

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-size: 18pt; 
+	font-size:8vw;
+}
+
+h2 {
+	font-size: 16pt; 
+	font-size:6vw;
+}
+	
+h3 {
+	font-size: 14pt; 
+	font-size:4.5vw;
+}
+
+.logo img {
+	width:40px;
+	float:left;
+}
+
+.article {
+	display: table-header-group;
+}
+
+.side-menu	{
+	display: table-footer-group;
+	width:80%;
+	float:none;!important
+	clear:both;
+	left:0;
+	min-height:200px;
+}	
+
+.social {
+   position:fixed;
+   left:0;
+   bottom:0;
+   height:60px;
+   width:100%;
+   border-top:solid 1px #7ADE4A;
+   padding-bottom:5px;	
+   text-align:center;
+   background-color:#FFF;
+   z-index:100;
+}
+
+.social li {
+	float:none;
+	display: inline-block;
+}	
+
+
+.menu > ul {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    visibility: hidden;
+    display: block;
+    padding: 0.5em 0.6em;
+    border: none;
+	text-align:center;
+}
+  
+.menu .navbar-handle {
+    display: block;
+	padding-bottom:20px;
+}
+
+#navbar-checkbox:checked + .menu ul {
+    max-height: 300px;
+}
+
+#navbar-checkbox:checked + .menu li {
+    visibility: visible;
+}
+
+.mobile-space {
+	width:80%;
+	height:100px;
+}
+
+.mobile-collapse {
+	float: none;
+	width: auto;
+	margin-right:0;
+}
+	
+.hide-mobile {
+	display:none;
+}	
